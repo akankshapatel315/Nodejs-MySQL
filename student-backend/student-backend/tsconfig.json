@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./", // Set rootDir to the project root
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "config/**/*"],
+  "exclude": ["node_modules"]
+}
